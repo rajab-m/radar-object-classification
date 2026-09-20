@@ -1,6 +1,37 @@
 # Radar Object Classification
 
 Deep-learning-based classification of radar targets using cropped Range-Doppler maps and additional radar features.
+## Project Context
+
+This work was developed as part of the **VIDETEC-2** research project
+("Increased Traffic Safety via Intelligent Detection Technologies").
+
+VIDETEC-2 investigated intelligent infrastructure-based sensing technologies
+for improving traffic safety at urban intersections. The project focused on
+the detection, localization, classification, and movement prediction of road
+users, with particular emphasis on vulnerable road users such as pedestrians
+and cyclists. The project combined infrastructure-mounted micro-Doppler radar
+sensors with Communication, Localization and Surveillance (CLS) technologies
+to collect traffic data from real-world intersection scenarios.
+
+This repository contains a machine-learning pipeline developed using radar
+measurements collected within the VIDETEC-2 project. The work focuses on
+radar-based road-user classification using range-Doppler maps together with
+additional radar-derived features such as range, speed, azimuth, and
+range-compensated signal strength.
+
+The radar data used in this work were collected using stationary radar
+sensors installed as part of the VIDETEC-2 measurement infrastructure. The
+resulting dataset contains measurements of different road-user classes,
+including pedestrians, cyclists, cars, scooters, and trucks.
+
+The project was a collaboration involving IMST GmbH, DLR, CGF AG, TU Munich,
+and Dortmund University of Applied Sciences and Arts (FH Dortmund). The
+VIDETEC-2 project ran from January 2023 to December 2025.
+
+For more information about the project and the publicly available datasets,
+see the [official VIDETEC-2 project website](https://www.videtec-projekt.de/)
+and the [VIDETEC-2 dataset on Zenodo](https://zenodo.org/records/17799385).
 
 ## Overview
 

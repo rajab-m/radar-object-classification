@@ -31,7 +31,6 @@ VIDETEC-2 project ran from January 2023 to December 2025.
 
 For more information about the project and the publicly available datasets,
 see the [official VIDETEC-2 project website](https://www.videtec-projekt.de/)
-and the [VIDETEC-2 dataset on Zenodo](https://zenodo.org/records/17799385).
 
 ## Overview
 

@@ -68,7 +68,7 @@ The classification models are evaluated using:
 
 ## Dataset
 
-The original radar measurements are not included in this repository because they originate from an internal measurement campaign.
+The original radar measurements are  included in this repository and they originate from an internal measurement campaign (Videtec2 Project).
 
 The notebook expects the corresponding radar `.pkl` files to be available locally.
 
@@ -84,10 +84,11 @@ Place the files in the project directory or update the data path in the notebook
 
 ## Running the Notebook
 
-Create a Python environment and install the required packages:
+Create the Conda environment from the included `environment.yml`:
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate radar
 ```
 
 Then open:

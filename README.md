@@ -3,6 +3,8 @@
 Deep-learning-based classification of radar targets using cropped Range-Doppler maps and additional radar features.
 ## Project Context
 
+![Description of image](videtec2.png)
+
 This work was developed as part of the **VIDETEC-2** research project
 ("Increased Traffic Safety via Intelligent Detection Technologies").
 

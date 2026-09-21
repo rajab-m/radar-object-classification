@@ -133,6 +133,4 @@ and run the notebook from top to bottom.
 
 The trained PyTorch model can be exported to ONNX for deployment and inference using ONNX Runtime.
 
-## Notes
 
-For a rigorous evaluation, the recommended approach is to split data by measurement run rather than randomly splitting individual radar detections. This reduces the possibility of measurements from the same run appearing in both training and validation sets.

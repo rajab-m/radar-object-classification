@@ -100,19 +100,10 @@ The classification models are evaluated using:
 
 ## Dataset
 
-The original radar measurements are  included in this repository and they originate from an internal measurement campaign (Videtec2 Project).
+The original radar measurements are not included in this repository and they originate from an internal measurement campaign (Videtec2 Project).
 
 The notebook expects the corresponding radar `.pkl` files to be available locally.
 
-Expected files:
-
-```text
-radar_east_ip51.pkl
-radar_west_ip52.pkl
-radar_videtec_ip53.pkl
-```
-
-Place the files in the project directory or update the data path in the notebook.
 
 ## Running the Notebook
 
